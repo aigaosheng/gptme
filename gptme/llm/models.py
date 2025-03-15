@@ -223,7 +223,15 @@ MODELS: dict[Provider, dict[str, _ModelDictMeta]] = {
     },
     "nvidia": {},
     "azure": {},
-    "local": {},
+    "local": {
+        "gemma3": {
+            "context": 128_000,
+            "max_output": 32_768,
+            "price_input": 0.0,
+            "price_output": 0.0,
+            "supports_vision": True,
+        }
+    },
 }
 
 # check that all providers have a MODELS entry
