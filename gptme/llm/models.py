@@ -230,7 +230,28 @@ MODELS: dict[Provider, dict[str, _ModelDictMeta]] = {
             "price_input": 0.0,
             "price_output": 0.0,
             "supports_vision": True,
-        }
+        },
+        "llama3.2-vision": {
+            "context": 128_000,
+            "max_output": 32_768,
+            "price_input": 0.0,
+            "price_output": 0.0,
+            "supports_vision": True,
+        },
+        "deepseek-r1": {
+            "context": 128_000,
+            "max_output": 32_768,
+            "price_input": 0.0,
+            "price_output": 0.0,
+            "supports_vision": False,
+        },
+        "qwen2.5": {
+            "context": 128_000,
+            "max_output": 32_768,
+            "price_input": 0.0,
+            "price_output": 0.0,
+            "supports_vision": False,
+        },        
     },
 }
 
