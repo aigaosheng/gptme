@@ -59,6 +59,9 @@
 An unconstrained local <a href="https://gptme.org/docs/alternatives.html">alternative</a> to: ChatGPT with "Code Interpreter", Cursor Agent, etc.<br/>Not limited by lack of software, internet access, timeouts, or privacy concerns (if using local models).
 </p>
 
+## Update 
+- Add local models supports: gemma3, llama3.2-vision, deepseek-r1, qwen2.5
+
 ## 📚 Table of Contents
 
 - 🎥 [Demos](#-demos)
